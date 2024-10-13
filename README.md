@@ -1,4 +1,4 @@
-﻿# AxionBio Software Conference Oct 2024: Coding Quiz
+﻿# AxionBio Software Conference Oct 2024: Coding Challenge
 
 
 ## Coding Exercises
@@ -52,17 +52,19 @@ Input array length not exceed 1024 elements.
 **Output examples:**
 
 ```csharp
-var lm = new ListMerger(
+var lm = new ListMerger();
+lm.Merge(
     new int[] { 1, 2, 3, },
     new int[] { 2, 3, 4, },
-);
-lm.Merge(); // expected [ 1, 2, 2, 3, 3, 4 ]
+); // expected [ 1, 2, 2, 3, 3, 4 ]
 ```
 
 
 
 ### Maximal Depth of Binary Tree
 
+Given a binary tree (check the interface `ITree`),
+return the number of edges between the root node and the deepest leaf node.
 
 
 ### Detect a Cycle in the Graph
