@@ -63,8 +63,23 @@ lm.Merge(
 
 ### Maximal Depth of Binary Tree
 
-Given a binary tree (check the interface `ITree`),
+Given a binary tree (check the class `BinaryTree\BinaryNode`),
 return the number of edges between the root node and the deepest leaf node.
+
+```
+           A
+        /     \
+      B         C
+     / \       / \
+    D   E     F   G
+       / \
+      H   I
+           \
+            J
+
+    # Deepest path: A-B-E-I-J
+    # MaxDepth = 4
+```
 
 
 ### Detect a Cycle in the Graph
