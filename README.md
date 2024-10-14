@@ -86,7 +86,7 @@ return the number of edges between the root node and the deepest leaf node.
 
 
 
-### Longest Substring Without Repeating Characters.
+### Longest Substring Without Repeating Characters
 
 
 
