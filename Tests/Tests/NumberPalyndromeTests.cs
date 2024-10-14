@@ -1,16 +1,13 @@
-namespace NumberPalyndromeTests;
+using Challenge;
 
-public class Tests
+namespace Tests;
+
+public class NumberPalyndromeTests
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
-
     [Test]
     public void Should_Pass_On_Palyndrome()
     {
-        var np = new NumberPalyndrome.NumberPalyndrome();
+        var np = new NumberPalyndrome();
         var validNumbers = new UInt64[]
         {
             0, 9, 11, 121, 1221, 12345654321,
@@ -25,7 +22,7 @@ public class Tests
     [Test]
     public void Should_Fail_On_NonPalyndrome()
     {
-        var np = new NumberPalyndrome.NumberPalyndrome();
+        var np = new NumberPalyndrome();
         var invalidNumbers = new UInt64[]
         {
             12, 123123, 1234021, 12340321,

@@ -7,6 +7,7 @@
 
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
+        <OutputType>Library</OutputType>
     </PropertyGroup>
 
     <ItemGroup>
@@ -22,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\NumberPalyndrome\NumberPalyndrome.csproj" />
+      <ProjectReference Include="..\..\Challenge\Challenge.csproj" />
     </ItemGroup>
 
 </Project>

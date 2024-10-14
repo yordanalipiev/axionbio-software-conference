@@ -3,8 +3,8 @@
 
 ## Coding Exercises
 
-There are some coding tasks organized as C# projects.  
-Please implement appropriate methods to pass the unit tests.
+There are several coding tasks organized as the `Challenge` project.  
+Please implement appropriate methods to pass the unit tests (check the `Tests` project).
 
 The more tests are ✅, the better.  
 🤖 Please **don't use LLM/AI helpers;** that kills the fun. 🤖 
