@@ -30,7 +30,9 @@ public class ValidParenthesesTests
         {
             "[", "(((a))]",
             "((( ))",
-            "({[})"
+            "({[})",
+            "]()",
+            ":-)",
         };
 
         foreach (var s in invalidParentheses)
