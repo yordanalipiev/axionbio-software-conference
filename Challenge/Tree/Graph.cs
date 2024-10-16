@@ -48,8 +48,13 @@ public class Graph
 
     private readonly Dictionary<Node, Dictionary<string, Edge>> _nodeEdges = new Dictionary<Node, Dictionary<string, Edge>>();
 
-    public readonly Dictionary<string, Edge> Nodes = new Dictionary<string, Edge>();
+    public readonly Dictionary<string, Node> Nodes = new Dictionary<string, Node>();
     public readonly Dictionary<string, Edge> Edges = new Dictionary<string, Edge>();
+
+    public void AddNode(Node node)
+    {
+        Nodes.TryAdd(node.Id, node);
+    }
 
     public void AddEdge(Edge edge)
     {
