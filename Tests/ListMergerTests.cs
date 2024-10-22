@@ -30,6 +30,12 @@ public class ListMergerTests
             },
             new TestData()
             {
+                Left = new int[] { },
+                Right = new int[] { 1, 2, },
+                Expected = new int[] { 1, 2, },
+            },
+            new TestData()
+            {
                 Left = new int[] { 7, 8, 9, },
                 Right = new int[] { 1, 2, 3, },
                 Expected = new int[] { 1, 2, 3, 7, 8, 9, },
@@ -50,7 +56,7 @@ public class ListMergerTests
     }
 }
 
-public struct TestData
+internal struct TestData
 {
     public int[] Left { set; get; }
     public int[] Right { set; get; }

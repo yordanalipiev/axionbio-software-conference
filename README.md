@@ -63,7 +63,7 @@ lm.Merge(
 
 ### Maximal Depth of Binary Tree
 
-Given a binary tree (check the class `BinaryTree\BinaryNode`),
+Given a binary tree (check the class `Tree\BinaryNode`),
 return the number of edges between the root node and the deepest leaf node.
 
 ```
@@ -87,6 +87,15 @@ return the number of edges between the root node and the deepest leaf node.
 
 
 ### Longest Substring Without Repeating Characters
+
+**Input constraints:** ASCII string of max. length of 1024 chars.  
+**Output examples:**
+
+```csharp
+var ls = new LongestSubstring();
+ls.GetLongest("q_wert a_sdfghjkl zxc");
+//                 
+```
 
 
 
