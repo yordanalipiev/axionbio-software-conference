@@ -48,5 +48,6 @@ public class WordSearchTests
 
         yield return new TestCaseData(board1, "ABCB");
         yield return new TestCaseData(board1, "XYZ");
+        yield return new TestCaseData(board1, "ABCCEDE");
     }
 }

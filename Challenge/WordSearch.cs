@@ -12,7 +12,7 @@
         ///   ['S','F','C','S'],
         ///   ['A','D','E','E']
         /// ]
-        /// The word "ABCCED" exists, but "SEE" does not exist because the same cell can't be used twice.
+        /// The word "ABCCED" exists, but "ABCCEDE" does not exist because the same cell can't be used twice.
         /// </summary>
         /// <param name="board">The 2D character board.</param>
         /// <param name="word">The word to search for.</param>
