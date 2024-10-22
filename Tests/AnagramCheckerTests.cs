@@ -8,18 +8,18 @@ public class AnagramCheckerTests
     [TestCaseSource(nameof(TestCaseValidDataSource))]
     public void AreAnagrams_ForAnagramStrings_ShouldReturnTrue(string first, string second)
     {
-        var calculator = new AnagramChecker();
+        var checker = new AnagramChecker();
 
-        Assert.That(calculator.AreAnagrams(first, second), Is.True);
+        Assert.That(checker.AreAnagrams(first, second), Is.True);
     }
 
     [Test]
     [TestCaseSource(nameof(TestCaseInvalidDataSource))]
     public void AreAnagrams_ForRandomStrings_ShouldReturnFalse(string first, string second)
     {
-        var calculator = new AnagramChecker();
+        var checker = new AnagramChecker();
 
-        Assert.That(calculator.AreAnagrams(first, second), Is.False);
+        Assert.That(checker.AreAnagrams(first, second), Is.False);
     }
 
     private static IEnumerable<TestCaseData> TestCaseValidDataSource()
